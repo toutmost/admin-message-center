@@ -1,0 +1,13 @@
+Name: mcms.rpc
+ListenOn: 0.0.0.0:0
+
+
+Log:
+  ServiceName: mcmsRpcLogger
+  Mode: file
+  Path: /home/data/logs/mcms/rpc
+  Encoding: json
+  Level: info
+  Compress: false
+  KeepDays: 7
+  StackCoolDownMillis: 100
